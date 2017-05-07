@@ -3,3 +3,8 @@ html{
     padding: 0;
     font: normal 100%/1.4 cursive;
 }
+
+a.current{
+    background-color: #550505;
+    color: #fff;
+}

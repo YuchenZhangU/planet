@@ -1,5 +1,5 @@
 <ul>
-    <li><a href="{{site.baseurl}}/index.html">Index</a></li>
-    <li><a href="{{site.baseurl}}/planet.html">Planet</a></li>
-    <li><a href="{{site.baseurl}}/new.html">New</a></li>
+    <li><a href="{{site.baseurl}}/" class={% if page.url == '/' %}current{% endif %}>Home</a></li>
+    <li><a href="{{site.baseurl}}/planet.html" class="{{ page.url }}">Planet</a></li>
+    <li><a href="{{site.baseurl}}/new.html" class="{% if page.url == '/new.html' %}current{% endif %}">New</a></li>
 </ul>
