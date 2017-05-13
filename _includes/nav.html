@@ -1,5 +1,10 @@
 <ul class="nav {{include.navClass}}">
-    <li><a href="{{site.baseurl}}/" class={% if page.url == '/' %}current{% endif %}>Home</a></li>
+    <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
     <li><a href="{{site.baseurl}}/planet.html" class="{{ page.url }}">Planet</a></li>
-    <li><a href="{{site.baseurl}}/new.html" class="{% if page.url == '/new.html' %}current{% endif %}">New</a></li>
+    <li>
+        <a href="{{site.baseurl}}/new.html" 
+        class="{% if page.url contains 'new' or page.url contains 'recently_discovered' %}current{% endif %}">
+            New
+        </a>
+    </li>
 </ul>
