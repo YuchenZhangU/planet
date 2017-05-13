@@ -4,4 +4,4 @@ category: planet-type
 folder: terrestrial
 ---
 
-A Terrestrial
+A **Terrestrial**
