@@ -1,0 +1,10 @@
+.masthead{
+    background: #550505 url(../img/nebula.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 1em;
+}
+
+.masthead-planet{
+    background-image: url(../img/nebula-2.jpg);
+}
